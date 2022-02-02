@@ -37,9 +37,6 @@
 }
 
 @media (max-width: 580px) {
-    .container {
-        width: 100vw;
-    }
     .panel {
         margin: 4px;
         height: 60vh;

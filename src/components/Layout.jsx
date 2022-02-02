@@ -1,5 +1,6 @@
-import Card from "./card";
+import Card from "./misc/card";
 import React from "react";
+import './Layout.css'
 
 class Layout extends React.Component {
     constructor(props) {
