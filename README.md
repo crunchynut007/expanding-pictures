@@ -1,8 +1,8 @@
 # Expanding Pictures
 
-A React JS app which shows pictures, when clicked will expand their contents.
+A React JS app which expands pictures when clicked. 
 
-TODO: Life state to close inactive pictures.
+Example of lifting state in React JS
 
 ## How To:
 
