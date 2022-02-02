@@ -9,13 +9,10 @@ class Card extends React.Component {
     }
 
     handleClick() {
-        //clears all values in the array and assigns a single active class. Passed to the parent state object
-        let newActive = this.props.activePanel;
-        for (let x=0; x<newActive.length;x++) {
-            newActive[x]='';
-        }
-        newActive[this.props.index] = 'active';
-        this.props.onClickHandler(newActive)
+        // Clears all values in the array and assigns a single active class. Passed to the parent state object
+        const newArr = this.props.activePanel.map(element => element = '');
+        newArr[this.props.index] = 'active';
+        this.props.onClickHandler(newArr)
     }
 
     render() {
