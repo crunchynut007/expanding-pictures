@@ -14,7 +14,8 @@ class Layout extends React.Component {
         this.setState({activeCard: newActive})
     }
 
-
+    //TODO Create JSON file and have cards generate dynamically based on JSON data present. "Map" data to array
+    //TODO JSON data: index, description (text), url
    render() {
        return (
            <div className='container'>
