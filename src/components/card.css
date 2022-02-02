@@ -36,3 +36,16 @@
     transition-duration: 0.7s;
 }
 
+@media (max-width: 580px) {
+    .container {
+        width: 100vw;
+    }
+    .panel {
+        margin: 4px;
+        height: 60vh;
+    }
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+        display: none;
+    }
+}
