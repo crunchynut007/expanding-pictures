@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    display: -webkit-flex;
     width: 90%;
     max-width: 1000px;
 }
