@@ -16,6 +16,10 @@
     /*box-shadow: gray 0.5vh 0.5vh 4vh;*/
 }
 
+.panel:focus {
+    outline: none;
+}
+
 .panel h3 {
     position: absolute;
     font-size: 24px;
