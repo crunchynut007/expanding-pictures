@@ -9,6 +9,7 @@
   position: relative;
   overflow: hidden;
   display: flex;
+  display: -webkit-flex;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
